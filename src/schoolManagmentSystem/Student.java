@@ -52,6 +52,10 @@ public class Student {
         this.grade = grade;
     }
 
+    public void updateFeesPaid (int fees) {
+        feesPaid += fees;
+    }
+
     @Override
     public String toString() {
         return "Student{" +
